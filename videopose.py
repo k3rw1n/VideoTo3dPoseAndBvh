@@ -329,5 +329,5 @@ def write_smartbody_bvh(outbvhfilepath,prediction3dpoint):
     SmartBody_skeleton.poses2bvh(prediction3dpoint,output_file=bvhfileName)
 
 if __name__ == '__main__':
-	import sys
+    import sys
     inference_video(sys.argv[1], 'alpha_pose')
